@@ -25,7 +25,7 @@ const items = [
         caption: 'Backend coder <i class="fa fa-code icon"></i>'
     },
     {
-        caption: '<i class="fa fa-trophy"></i> Awesome programmer'
+        caption: '<i class="fa fa-mobile"></i> Fullstack Developer'
     }
 ];
 
@@ -64,14 +64,6 @@ class Header extends Component{
         });
 
         $(document).ready(function() {	
-            $('.carousel').mouseenter(function() {
-                $('.carousel-control').fadeIn(300);
-            });
-            
-            $('.carousel').mouseleave(function() {
-                $('.carousel-control').fadeOut(300);
-            });
-
             var ke = 1;
             setInterval(function(){     
                 if(ke===1){
@@ -182,7 +174,7 @@ class Header extends Component{
                                 </a>
                             </li>
                         </ul>   
-                        <h2 className="scrollpoint sp-effect3">Ferdhika Yudira</h2>
+                        <h2 className="scrollpoint sp-effect3">{'{F}'}</h2>
                         <ul className="brands brands-inline hidden-xs scrollpoint sp-effect2">
                             <li>
                                 <a href="http://github.com/ferdhika31" target="_blank" rel="noopener noreferrer">

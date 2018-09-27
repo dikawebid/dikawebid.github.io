@@ -202,6 +202,10 @@ header {
 	color:#89eafb;	
 }
 
+.carousel-inner h3 {
+	font-size: 20px;
+}
+
 .carousel-inner {
 	margin-bottom:15px;
 }
