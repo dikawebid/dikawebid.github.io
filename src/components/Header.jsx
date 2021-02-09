@@ -14,18 +14,18 @@ import {
 } from 'reactstrap';
 import $ from 'jquery';
 import '../assets/css/vertical-carousel.css';
-import sare from '../assets/images/ava_sare.png';
-import fokus from '../assets/images/ava_fokus.png';
+import sare from '../assets/images/ava_baru.svg';
+import fokus from '../assets/images/ava_baru.svg';
 
 const items = [
     {
-        caption: 'I <i class="fa fa-heart icon-first"></i> WebDevelopment'
+        caption: 'I <i class="fa fa-heart icon-first"></i> Web Development'
     },
     {
         caption: 'Backend coder <i class="fa fa-code icon"></i>'
     },
     {
-        caption: '<i class="fa fa-mobile"></i> Fullstack Developer'
+        caption: 'Sometimes <i class="fa fa-mobile"></i> Fullstack Developer'
     }
 ];
 
@@ -139,11 +139,12 @@ class Header extends Component{
                         </div>
                         
                         <NavbarToggler onClick={this.toggle} />
+
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto animated flipInX" navbar>
                                 <NavItem>
-                                    <NavLink href="/components/" className="scroll">
-                                        Components
+                                    <NavLink href="/linkedin/" className="scroll">
+                                        Linkedin
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -151,7 +152,6 @@ class Header extends Component{
                                         GitHub
                                     </NavLink>
                                 </NavItem>
-                            
                             </Nav>
                         </Collapse>
                     </Container>
@@ -164,23 +164,13 @@ class Header extends Component{
                     <div className="social-wrapper">
                         <ul className="brands brands-inline hidden-xs scrollpoint sp-effect1">
                             <li>
-                                <a href="http://facebook.com/ferdhika31" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-facebook hi-icon-effect-8"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com/ferdhikaaa" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-twitter"></i>
+                                <a href="http://github.com/ferdhika31" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-github"></i>
                                 </a>
                             </li>
                         </ul>   
                         <h2 className="scrollpoint sp-effect3">{'{F}'}</h2>
                         <ul className="brands brands-inline hidden-xs scrollpoint sp-effect2">
-                            <li>
-                                <a href="http://github.com/ferdhika31" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github"></i>
-                                </a>
-                            </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/ferdhika" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin"></i>
@@ -200,8 +190,8 @@ class Header extends Component{
                 
                     </Carousel>
 
-                    <a href="#about" className="btn btn-reference btn-lg scroll scrollpoint sp-effect1" role="button"><i className="fa fa-smile-o"></i> Know me better</a>
-                    <a href="#contact" className="btn btn-reference btn-lg btn-active scroll scrollpoint sp-effect2" role="button"><i className="fa fa-bolt"></i> Hire me</a>
+                    {/* <a href="#about" className="btn btn-reference btn-lg scroll scrollpoint sp-effect1" role="button"><i className="fa fa-smile-o"></i> Know me better</a>
+                    <a href="#contact" className="btn btn-reference btn-lg btn-active scroll scrollpoint sp-effect2" role="button"><i className="fa fa-bolt"></i> Hire me</a> */}
                 </Jumbotron>
 
             </header>
