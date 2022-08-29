@@ -1,0 +1,33 @@
+{
+    "name": "Ferdhika Yudira",
+    "about": [
+        {
+            "value": "Software Developer",
+            "percentage": 80
+        },
+        {
+            "value": "Dreamers",
+            "percentage": 20
+        }
+    ],
+    "languageExpertise": [
+        "PHP",
+        "HTML5/CSS3",
+        "Javascript",
+        "Go",
+        "Python",
+        "Java"
+    ],
+    "links": [
+        {
+            "url": "https://www.linkedin.com/in/ferdhika",
+            "name": "LinkedIn"
+        },
+        {
+            "url": "https://github.com/ferdhika31",
+            "name": "GitHub"
+        }
+    ],
+    "notes": "Life is not a problem to be solved, but a reality to be experienced.\n- Soren Kierkegaard",
+    "createdAt": 872960400
+}
